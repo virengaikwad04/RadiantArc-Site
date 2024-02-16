@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Image Grid</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+      align-items: center;
+  }
+
+  .item {
+    flex-basis: 18%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+    display:flex;
+  }
+
+  @media (max-width: 768px) {
+    .item {
+      flex-basis: 48%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .item {
+      flex-basis: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">
+      <img src="images/trumpet.png" alt="Placeholder Image">
+    </div>
+    <div class="item">
+      <img src="https://static.wixstatic.com/media/7c7fcc_6f32f814ff5d49bc94a9e99f14831a73~mv2.png" alt="Placeholder Image">
+    </div>
+    <div class="item">
+      <img src="images/BFLLWellness.png" alt="Placeholder Image">
+    </div>
+    <div class="item">
+      <img src="images/Rudra.png" alt="Placeholder Image">
+    </div>
+    <div class="item">
+      <img src="https://suspire.in/cdn/shop/files/Primary_Typographic_Logo_Green_1-min_140x@2x.png?v=1653113123" alt="Placeholder Image">
+    </div>
+    <!-- Repeat the above five divs to add more images -->
+  </div>
+</body>
+</html>
