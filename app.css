@@ -294,13 +294,23 @@ form label {
 }
 
 @media (max-width: 768px) {
-    .logo-item {
+  .logo-container {
+    flex:0 0 auto;
+    width:50%
+  }  
+  
+  .logo-item {
       flex-basis: 48%;
     }
   }
 
   @media (max-width: 480px) {
+    .logo-container {
+      flex:0 0 auto;
+      width:33.3333333333%
+    } 
+
     .logo-item {
-      flex-basis: 33%;
+      flex-basis: 100%;
     }
   }
