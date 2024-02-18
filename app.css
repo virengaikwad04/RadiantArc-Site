@@ -104,6 +104,11 @@
 .bg-blueDark {
   background: #a4a4a4;
 }
+
+.bg-footer {
+  background: linear-gradient(180deg, #2D1462 7.44%, #373678 35.63%, #352C6C 62.22%, #2C104A 86.68%, #280137 102.1%);
+}
+
 /* btn, a */
 a.bg-brand-primayfaint:hover {
   color: white !important;
@@ -114,7 +119,7 @@ a.bg-brand-primay:hover {
   background: #f89d2d !important;
 }
 a.cl-blue-900:hover {
-  color: #030303 !important !important;
+  color: #030303 !important;
 }
 /* font weight  */
 .fw-smbold {
