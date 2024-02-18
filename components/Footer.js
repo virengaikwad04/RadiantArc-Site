@@ -10,7 +10,7 @@ function Footer() {
     <div class="brand-logo">
       <img
         class=""
-        src="./images/BrandLogo-light.jpeg"
+        src="./images/Logo-White.png"
         alt="beandLogo"
         type="images/svg"
       />
@@ -19,12 +19,12 @@ function Footer() {
   <div class="brand-tagline h2 my-3 w-75">
     Bespoke software solutions
   </div>
-  <div class="brand-socials my-3 mt-4">
-    <a href="#" class="mx-2"> <i class="bi bi-facebook"></i></a>
-    <a href="#" class="mx-2"> <i class="bi bi-youtube"></i></a>
-    <a href="#" class="mx-2"> <i class="bi bi-instagram"></i></a>
-    <a href="#" class="mx-2"> <i class="bi bi-twitter"></i></a>
-  </div>
+  // <div class="brand-socials my-3 mt-4">
+  //   <a href="#" class="mx-2"> <i class="bi bi-facebook"></i></a>
+  //   <a href="#" class="mx-2"> <i class="bi bi-youtube"></i></a>
+  //   <a href="#" class="mx-2"> <i class="bi bi-instagram"></i></a>
+  //   <a href="#" class="mx-2"> <i class="bi bi-twitter"></i></a>
+  // </div>
 </div>
 <div class="col-12 col-md-7 col-lg-7">
   <div class="row gy-5">
