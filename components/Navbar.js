@@ -35,19 +35,19 @@ function Navbar() {
                 <a class="nav-link " aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#features-section">Services</a>
+                <a class="nav-link" href="./index.html#features-section">Services</a>
               </li>
             <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#about-section">About Us</a>
+                <a class="nav-link" href="./index.html#about-section">About Us</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#team-section">The Team</a>
+                <a class="nav-link" href="./index.html#team-section">The Team</a>
               </li>
               <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#logos-section">Our Clients</a>
+                <a class="nav-link" href="./index.html#logos-section">Our Clients</a>
               </li>
                 <li class="nav-item ms-md-1">
-                <a class="nav-link" href="#videoSection">Testimonials</a>
+                <a class="nav-link" href="./index.html#videoSection">Testimonials</a>
               </li>
               <li class="nav-item ms-md-1">
               <a
