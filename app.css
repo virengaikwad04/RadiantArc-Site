@@ -301,6 +301,6 @@ form label {
 
   @media (max-width: 480px) {
     .logo-item {
-      flex-basis: 100%;
+      flex-basis: 33%;
     }
   }
